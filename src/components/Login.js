@@ -1,9 +1,6 @@
 import React from 'react';
 import { CometChat } from '@cometchat-pro/chat';
 import { NotificationManager } from 'react-notifications';
-
-import loginIllustration from '../assets/login-illustration.svg';
-
 class Login extends React.Component {
 
   state = {
