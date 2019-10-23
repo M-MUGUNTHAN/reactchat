@@ -6,7 +6,6 @@ import {NotificationContainer} from 'react-notifications';
 //import './App.css';
 import 'react-notifications/lib/notifications.css';
 import Login from './components/Login';
-import Chat1 from './components/Chat1';
 import Call from './components/Call';
 
 CometChat.init(process.env.REACT_APP_COMETCHAT_APP_ID).then(
@@ -30,7 +29,6 @@ const App = () => {
         <NotificationContainer />
         <Route exact path='/' component={Login} />
         <Route path='/login' component={Login} />
-        <Route path='/chat' component={Chat1} />
         <Route path='/call'component={Call}/>
       </React.Fragment>
     </Router>
